@@ -1,5 +1,4 @@
 language: r
-dist: bionic
 cache: packages
 
 
@@ -11,7 +10,6 @@ r_packages:
 
 r_github_packages:
   - ropensci/babette
-  - ropensci/mcbette
 
 before_install:
   # ImageMagick
